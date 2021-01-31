@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4교시 음악 영역</title>
+    <script type="text/javascript">
+        function useSubmit(){
+              var obj=document.frm;
+              if(obj.answer.value.replace(/ /g,"")=="붕붕"){/* replace(/  /g,"")==trim */
+                   obj.onsubmit;
+              }
+              else{
+                    obj.answer.focus();
+                    alert("정답이 틀렸습니다.");
+                    return false
+                }
+        }
+   </script>
+   <link rel="stylesheet" href="./css/4교시.css"></link>
+</head>
+<body>
+    <h2>4교시 음악 영역</h2>
+    
+    <div class="col">
+        <div class="bb">1</div>
+        <div>→</div>
+        <div class="by">2</div>
+        <div>→</div>
+        <div class="yw">3</div>
+    </div>
+    
+    
+    <div class="question">
+        <span>무슨 노래일까?</span>
+        </div>
+
+    <form action="./ending.html" method="GET" name="frm" onsubmit="return useSubmit();">
+        <input type="text" name="answer" class="inputbox" placeholder="정답을 입력하세요."/>
+        <input type="submit" value="제출" class="btn"/>
+    </form>
+
+</body>
+</html>

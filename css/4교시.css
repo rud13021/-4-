@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body {
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.answer{
+    margin-bottom: 25px;
+}
+
+h2 {
+    color : blueviolet;
+    margin-bottom: 50px;
+}
+.col {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 50px;
+}
+.bb {
+    background-color:black;
+    font-size: 75px;
+    margin-right: 20px;
+}
+.bb:hover{
+    background-color:brown;
+}
+.by{
+    background-color: brown;
+    font-size: 75px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.by:hover{
+    background-color: yellow;
+}
+.yw{
+    background-color: yellow;
+    font-size: 75px;
+    margin-left: 20px;
+}
+.yw:hover{
+    background-color: white;
+}
+.question{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: 'Single Day', cursive;
+    color: blue;
+}
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+}

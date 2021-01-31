@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color : coral;
+    margin-bottom: 50px;
+}
+li:before {
+    content: "• ";
+    color: blue;
+}
+.quiz{
+    margin-left:-5%;
+    list-style: none;
+    color: blue;
+    margin-bottom: 50px;
+}
+.question{
+    margin-bottom: 20px;
+    font-family: 'Single Day', cursive;
+}
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 5px;
+}
